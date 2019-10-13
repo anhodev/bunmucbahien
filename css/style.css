@@ -1297,8 +1297,23 @@ html, body{ height: 100%; }
 -------------------------------------------------------------------*/
 
 .pricing-main{
-	background:url(../images/full-bg.png) no-repeat center ;
-	background-size:cover;
+	/* background:url(../images/full-bg.png) no-repeat center ;
+    background-size:cover; */
+    
+    background: url(../images/team_bg.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.pricing-main:before {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.67);
+    position: absolute;
+    top: 0;
 }
 
 .pricing-main h2{
@@ -1309,10 +1324,14 @@ html, body{ height: 100%; }
 .pricing-main p{
 	letter-spacing: 0.16px;
 	padding: 20px 120px;
-	color: #666;
+	color: #fff;
 	font-size: 18px;
 	text-align:center;
 }
+.pricing-main h6{
+    color: #fff;
+}
+
 
 .panel-pricing-in{
 	clear:both;
@@ -1553,13 +1572,15 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
 
 .footer-main{}
 .footer-news{
-	background:url(../images/newsletter-bg.jpg) no-repeat center;
+	/* background:url(../images/newsletter-bg.jpg) no-repeat center;
 	background-attachment:fixed;
 	background-size:cover;
-	position:relative;
+    position:relative; */
+    
+    background-color: rgba(0, 0, 0, 0.045);
 }
 
-.footer-news::before {
+/* .footer-news::before {
     content: '';
     display: inline-block;
     width: 100%;
@@ -1568,7 +1589,7 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
     position: absolute;
     top: 0;
     left: 0;
-}
+} */
 
 .ft-title.color-white {
     color: #fff;
