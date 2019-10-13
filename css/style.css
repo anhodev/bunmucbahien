@@ -370,9 +370,9 @@ html, body{ height: 100%; }
 	padding: 10px 0 10px;
 }
 
-/* .fixed-menu .navbar-brand>img {
-    max-width: 150px;
-} */
+.fixed-menu .navbar-brand>img {
+    max-width: 250px;
+}
 
 .fixed-menu .main-menu nav li a{
     padding: 32px 0px 10px 0;
