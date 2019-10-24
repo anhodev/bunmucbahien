@@ -90,7 +90,7 @@
 				$('.slider-nav .slick-slide.slick-current').addClass('is-active');
 			})
 			.slick({
-				slidesToShow: 4,
+				slidesToShow: 2,
 				slidesToScroll: 7,
 				dots: false,
 				focusOnSelect: false,
